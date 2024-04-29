@@ -1,0 +1,454 @@
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+.btn-action{
+    border-color: #48639C !important;
+    color: #48639C !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    font-size: 17px;
+}
+
+.btn-action:hover{
+    color:#fff !important;
+    background-color:#48639C;
+    border-color:#48639C
+}
+
+.btn-negative{
+    border-color: #D5573B !important;
+    color: #D5573B !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    font-size: 17px;
+}
+
+.btn-negative:hover{
+    color:#fff !important;
+    background-color:#D5573B;
+    border-color:#D5573B
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+html {
+    font-size: 14px;
+}
+
+
+/*index*/
+
+body {
+    background-image: url("whiteBkg.jpg");
+}
+
+ul {
+    list-style-type: none;
+    /*margin: 0;
+    padding: 0; */
+    width: 200px;
+}
+
+li a {
+    padding: 10px 5px;
+    display: block;
+    color: #000000;
+}
+
+li a:hover {
+    border-radius: 10px;
+    background-color: #0000b3;
+    color: #ffffff;
+}
+
+.titlefont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 350%;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    color: #0000b3;
+    position: absolute;
+    top: 6.5%;
+    padding-left: 2%;
+}
+
+.text1 {
+    font-family: 'Tahoma';
+    font-size: 1000%;
+    letter-spacing: 10px;
+    white-space: nowrap;
+    color: #1a1aff;
+    position: absolute;
+    top: 20%;
+    padding-left: 3%;
+}
+
+.text2 {
+    font-family: 'Tahoma';
+    font-size: 280%;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    color: #0000b3;
+    position: absolute;
+    top: 40%;
+    padding-left: 3.5%;
+}
+
+.text3 {
+    font-family: 'Tahoma';
+    font-size: 150%;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    color: #1a1aff;
+    position: absolute;
+    top: 53%;
+    padding-left: 3.5%;
+}
+
+.text4 {
+    font-family: 'Tahoma';
+    font-size: 20px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    color: #ff0000;
+    position: relative;
+}
+
+.image1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.image2 {
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+}
+
+.image3 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px
+}
+
+.box1 {
+    background-color: #8c8cff;
+    height: 73%;
+    width: 45.5%;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 12%;
+    left: 53%;
+}
+
+
+/*admin and user login*/
+
+.box2 {
+    background-color: #0000b3;
+    height: 60%;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    left: 25%;
+    outline: solid 5px #1a1aff;
+    background: rgba(26, 176, 92, .5);
+}
+
+input[name="password"],
+input[name="email"],
+input[name="fname"],
+input[name="lname"] {
+    background: rgb(255, 255, 255);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 4px solid #1a1aff;
+    padding: 14px 10px;
+    height: 10%;
+    width: 140%;
+    outline: none;
+    color: #000000;
+    transition: 0.25s;
+    font-family: monospace;
+    font-size: 120%;
+    border-radius: 15px;
+}
+
+input[name="email"]:focus,
+input[name="password"]:focus,
+input[name="fname"]:focus,
+input[name="lname"]:focus {
+    width: 150%;
+    height: 10%;
+    border: 6px solid #1a1aff;
+    border-radius: 15px;
+}
+
+
+/*admin/user homepage*/
+
+.pagefont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 280%;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    color: #1a1aff;
+    position: static;
+    top: 7%;
+    padding-left: 2%;
+}
+
+.greetingUser {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 230%;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    color: #0000b3;
+    position: absolute;
+    top: 14%;
+    padding-left: 2.5%;
+}
+
+.documentfont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.sideBarfont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    color: #1a1aff;
+}
+
+.box3 {
+    height: 70%;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background: rgba(25, 147, 207, 0.5);
+    outline: solid 5px #0000b3;
+}
+
+.column1 {
+    float: left;
+    width: 15%;
+}
+
+.column2 {
+    float: right;
+    width: 100%;
+}
+
+.uploadPos {
+    top: 91%;
+    left: 93%;
+    position: absolute;
+}
+
+
+/*create user*/
+
+.box4 {
+    height: 74%;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background: rgba(26, 156, 176, 0.5);
+    outline: solid 5px #0000b3;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 100px;
+}
+
+
+/*footer*/
+
+.footer {
+    height: 60px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    line-height: 60px;
+    background-color: #1a1aff;
+}
+
+.footerfont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bkg {
+    background: "whiteBkg.jpg";
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    min-height: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.logincenter {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+thead.theadColour{
+    text-align: center;
+    background: #0000b3;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+td.tbContents{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    font-size: 17px;
+}
+
+table tr td, table tr th{
+    background-color: rgba(26, 176, 92, 0.05) !important;
+}
+
+.tableHeader {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: #1a1aff;
+    top: 60px;
+    padding-left: 40px;
+}
